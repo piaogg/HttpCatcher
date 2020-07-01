@@ -1,0 +1,64 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vip\":1",
+      "matchValue" : "vip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "EndVip\":\"2029-06-30\"",
+      "matchValue" : "EndVip\":\"[0-9_-]*\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "Vip\":1",
+      "matchValue" : "Vip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "endVip\":\"2029",
+      "matchValue" : "endVip\":\"\\d{4}",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "validdate\":\"2029",
+      "matchValue" : "validdate\":\"2020",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "G动",
+  "locations" : [
+    {
+      "method" : "",
+      "scheme" : "",
+      "enabled" : true,
+      "port" : 0,
+      "query" : "",
+      "host" : "gdongapi.wo-ish.com",
+      "path" : ""
+    }
+  ],
+  "description" : "微信公众号墨鱼手记，仅供学习交流使用"
+}
