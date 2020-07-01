@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "is_ios_licensed\":true",
+      "matchValue" : "is_ios_licensed\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "Pushover",
+  "locations" : [
+    {
+      "method" : "",
+      "scheme" : "",
+      "enabled" : true,
+      "port" : 0,
+      "query" : "",
+      "host" : "api.pushover.net",
+      "path" : "\/1\/messages.json"
+    }
+  ],
+  "description" : "微信公众号墨鱼手记，仅供学习交流使用\n\nhttps:\/\/u.nu\/bstd7"
+}

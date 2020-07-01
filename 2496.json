@@ -1,0 +1,37 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vipstatus\":1",
+      "matchValue" : "vipstatus\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "expiration_time\":\"2029-05-01\"",
+      "matchValue" : "expiration_time\":\"0000-00-00\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "2496",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "http",
+      "enabled" : true,
+      "port" : 80,
+      "query" : "",
+      "host" : "api_2496.kuwo.cn",
+      "path" : "\/front\/user\/vipstatus"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供学习交流使用"
+}

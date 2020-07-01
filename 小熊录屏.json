@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\"code\":200,\"result\":[{\"expiresDateMs\":1874673575000,\"productId\":\"recorder_1_year\"}],\"serverTime\":1590677469068}",
+      "matchValue" : ".+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "小熊录屏",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "http",
+      "enabled" : true,
+      "port" : 80,
+      "query" : "",
+      "host" : "donate-api.recorder.duapps.com",
+      "path" : "\/pay\/checkAppleSubscribeReceipt"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供学习交流使用"
+}

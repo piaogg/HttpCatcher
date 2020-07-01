@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"VIP\": 1",
+      "matchValue" : "\"VIP\": 0",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "指尖时光",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "integral.dasyibalang.com",
+      "path" : "\/User"
+    }
+  ],
+  "description" : "微信公众号墨鱼手记，仅供学习交流使用"
+}
