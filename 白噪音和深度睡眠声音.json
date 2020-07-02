@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "true",
+      "matchValue" : "false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "白噪音和深度睡眠声音",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "staging.deepsleepsounds.com",
+      "path" : "\/api\/v1\/receipt\/processTransaction"
+    }
+  ],
+  "description" : "微信公众号墨鱼手记，仅供学习交流使用\n\n\nhttps:\/\/apps.apple.com\/cn\/app\/white-noise-deep-sleep-sounds\/id1083248251?l=en"
+}
