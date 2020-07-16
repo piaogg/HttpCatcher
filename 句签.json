@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "<false\/>",
+      "matchValue" : "<true\/>",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "句签",
+  "locations" : [
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "gaonenglist.oss-cn-shanghai.aliyuncs.com",
+      "path" : "\/cardsitems\/ListData.plist"
+    }
+  ],
+  "description" : "微信公众号墨鱼手记，仅供学习交流使用"
+}
