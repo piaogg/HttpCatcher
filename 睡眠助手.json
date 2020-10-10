@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\"data\":{\"userId\":\"1fdbhfn\",\"name\":null,\"gender\":0,\"avatar\":null,\"birthday\":null,\"mobile\":null,\"vipState\":{\"state\":1,\"forever\":false,\"startTime\":1600334263000,\"expireTime\":1884343967000}},\"code\":1}",
+      "matchValue" : ".+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "isReadOnly" : false,
+  "name" : "睡眠助手",
+  "locations" : [
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "www.helloshiyu.com",
+      "path" : "\/sleep\/user\/profile"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}
