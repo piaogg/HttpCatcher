@@ -1,0 +1,55 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "usageType\":\"unlimited",
+      "matchValue" : "usageType\":\"\\w+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "黄油相机",
+  "locations" : [
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "api4.bybutter.com",
+      "path" : "\/v4\/shop\/me\/privileges\/packets\/458"
+    },
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "api4.bybutter.com",
+      "path" : "\/v4\/shop\/me\/privileges"
+    },
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "types=filter,membership",
+      "host" : "api4.bybutter.com",
+      "path" : "\/v4\/shop\/me\/privileges"
+    },
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "api4.bybutter.com",
+      "path" : "\/v4\/template-square"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}
