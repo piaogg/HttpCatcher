@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "Vip\":\"2",
+      "matchValue" : "Vip\":\"0",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "emmo",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "http",
+      "enabled" : true,
+      "port" : 80,
+      "query" : "",
+      "host" : "106.54.2.168",
+      "path" : "\/emmoDiary\/user\/getUser"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用\n\n\nhttps:\/\/apps.apple.com\/cn\/app\/emmo-life-record\/id1508326506"
+}
