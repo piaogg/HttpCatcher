@@ -1,0 +1,82 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vipType\":1",
+      "matchValue" : "vipType\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vipStatus\":1",
+      "matchValue" : "vipStatus\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "avatar\":\"http:\/\/readingnotes.xrckeji.com\/readingnote\/20210105\/68819367c09847c6aa66682b3d84b821\/avatar\/avatar.jpg\"",
+      "matchValue" : "avatar\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "nickName\":\"墨鱼手记\"",
+      "matchValue" : "nickName\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vipFlag\":1",
+      "matchValue" : "vipFlag\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "萌猪记账",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "xrckeji.com",
+      "path" : "\/union\/app\/user\/query"
+    },
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "xrckeji.com",
+      "path" : "\/itally\/app\/user\/query"
+    },
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "xianbeikeji.com",
+      "path" : "\/daily\/app\/user\/query"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}
