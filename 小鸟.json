@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "isPayYear\":true",
+      "matchValue" : "isPayYear\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "小鸟",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "app.aves.art",
+      "path" : "\/api\/sys_user\/info"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}
