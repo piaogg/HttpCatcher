@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "proPlusExpiredTime\":1885008154000",
+      "matchValue" : "proPlusExpiredTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "轻芒杂志（草稿版）",
+  "locations" : [
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "api.qingmang.me",
+      "path" : "\/v2\/user.app.queryMembership"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供学习交流使用"
+}

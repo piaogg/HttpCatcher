@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "ExpirationTimestamp\":3814495657000",
+      "matchValue" : "ExpirationTimestamp\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "Fitplan",
+  "locations" : [
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "api2.fitplanapp.com",
+      "path" : "\/fitplan-server\/v2\/user\/profile"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}

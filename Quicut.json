@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "end_time\":\"2029-11-12 19:36:45\"",
+      "matchValue" : "end_time\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "quicut",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "http",
+      "enabled" : true,
+      "port" : 80,
+      "query" : "",
+      "host" : "outcut.szsszykj.com",
+      "path" : "\/api\/OverseasPay\/GetVip"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}

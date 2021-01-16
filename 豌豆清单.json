@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "forever\":true",
+      "matchValue" : "forever\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "豌豆清单",
+  "locations" : [
+    {
+      "method" : "GET",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "www.40sishi.com",
+      "path" : "\/list\/user\/profile"
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}
