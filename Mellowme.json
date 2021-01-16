@@ -1,0 +1,46 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip\": 0",
+      "matchValue" : "\"vip\": 1",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "status-code",
+      "matchField" : "",
+      "field" : "",
+      "value" : "200",
+      "matchValue" : "304",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "MellowMe",
+  "locations" : [
+    {
+      "method" : "",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "api.mellowme.app",
+      "path" : "\/v1\/home_category\/"
+    },
+    {
+      "method" : "",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "api.mellowme.app",
+      "path" : "\/v1\/media_album\/"
+    }
+  ],
+  "description" : "公众号墨鱼手记\n\n免费分享、请勿盗包，改包，售卖\n\nhttps:\/\/apps.apple.com\/cn\/app\/mellowme-sleep-sounds\/id1370264566?l=en"
+}
