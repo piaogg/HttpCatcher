@@ -1,0 +1,37 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "title\":\"已开通会员",
+      "matchValue" : "title\":\"[^\"]+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "type\":\"yet",
+      "matchValue" : "type\":\"not_yet",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "友邻优客",
+  "locations" : [
+    {
+      "method" : "",
+      "scheme" : "",
+      "enabled" : true,
+      "port" : 0,
+      "query" : "",
+      "host" : "new-app-api.ylyk.com",
+      "path" : ""
+    }
+  ],
+  "description" : "公众号墨鱼手记，仅供调试学习使用"
+}
